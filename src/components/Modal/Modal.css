@@ -1,0 +1,41 @@
+.modalOverlay > button {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: #6c757d;
+    cursor: pointer;
+}
+
+.modalOverlay button {
+    font-size: 16px;
+    color: #fff;
+}
+
+.modalHeader,
+.modalBody,
+.modalFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalWindow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #c8c8c8;
+}
+
+.modalBody {
+    margin-bottom: 15px;
+}
+
+.modalFooter button {
+    margin: 3px;
+    padding: 7px;
+    cursor: pointer;
+}
